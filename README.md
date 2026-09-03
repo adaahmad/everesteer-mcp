@@ -32,8 +32,7 @@ The pipeline runs in four stages: `data\_loader.py` loads and profiles incoming 
 Training/validation data omitted per competition data-sharing terms. Provide your own parquet files with the same schema to run the pipeline.
 
 
-
-\## Setup
+## Setup
 
 ```
 
