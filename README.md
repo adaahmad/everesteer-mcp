@@ -1,4 +1,4 @@
-\# Everesteer — MCP Futures Market Prediction Platform
+\# Everesteer MCP Futures Market Prediction Platform
 
 
 
