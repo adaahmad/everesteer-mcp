@@ -23,7 +23,7 @@ Python, scikit-learn, LightGBM (with automatic sklearn GradientBoosting fallback
 
 ## How it works
 
-The pipeline runs in four stages: `data\_loader.py` loads and profiles incoming data (schema, missing values, target distribution), `features.py` engineers lag, rolling, momentum, return, and time-based features, `models.py` trains and compares a baseline (Ridge/Logistic), a tree model (LightGBM or sklearn GBM), and an ensemble blend across validation folds, and `pipeline.py` runs the full load → features → validate → train → submit sequence.
+The pipeline runs in four stages: `data_loader.py` loads and profiles incoming data (schema, missing values, target distribution), `features.py` engineers lag, rolling, momentum, return, and time-based features, `models.py` trains and compares a baseline (Ridge/Logistic), a tree model (LightGBM or sklearn GBM), and an ensemble blend across validation folds, and `pipeline.py` runs the full load → features → validate → train → submit sequence.
 
 
 
